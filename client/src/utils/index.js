@@ -1,5 +1,5 @@
 import FileSaver from 'file-saver';
-import { surpriseMePrompts } from '../constants';
+import { surpriseMePrompts } from '../constant';
 
 export function getRandomPrompt(prompt) {
   const randomIndex = Math.floor(Math.random() * surpriseMePrompts.length);
